@@ -36,7 +36,7 @@ namespace Interfaces
                     ValorTotal += z.Preco;
 
                 }
-            Console.WriteLine($"\nO valor total dos produtos é igual a : {ValorTotal}");
+            Console.WriteLine($"\nO valor total dos produtos é igual a: R${ValorTotal}.");
             Console.ResetColor();
             }else{
                 
