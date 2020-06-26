@@ -8,9 +8,9 @@ namespace Interfaces
          //Update
          //Delete
 
-         void Add();
-         void Remove();
+         void Add(Produto produto);
+         void Remove(Produto produto);
          void Read();
-         void Update();
+         void Update(int _codigo, Produto produto);
     }
 }
